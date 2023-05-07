@@ -1,0 +1,119 @@
+.sidebar {
+  flex: 1;
+  min-height: 100vh;
+  background-color: #296296;
+
+  .top {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo {
+      height: 30px;
+      width: 100%;
+    }
+  }
+
+  .search {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    border: 0.5px solid lightgray;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 15px;
+
+    input {
+      border: none;
+      outline: none;
+
+      &::placeholder {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .center,
+  .bottom {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      .title {
+        font-size: 18px;
+        color: #e3e7eb;
+        margin-left: 20px;
+        margin-top: 40px;
+        margin-bottom: 5px;
+      }
+      hr {
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      li {
+        display: flex;
+        align-items: center;
+
+        padding: 5px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #8799b2;
+        }
+
+        .menu-icon {
+          font-size: 25px;
+          color: #cdcdcd;
+          margin-left: 10px;
+        }
+
+        span {
+          font-size: 18px;
+
+          color: #e3e7eb;
+          margin-left: 10px;
+        }
+        .fav-icon {
+          font-size: 20px;
+          color: #e3e7eb;
+          margin-left: 20px;
+        }
+        .fav-icon-selected{
+          font-size: 20px;
+          color: #f1cf0b;
+          margin-left: 20px;
+        }
+        .del-icon {
+          color: red;
+          margin-left: 5px;
+        }
+        .input-item{
+          margin-left: 15px;
+          border: none;
+        }
+      }
+      .add-icon {
+        font-size: 30px;
+        color: #cdcdcd;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+      span {
+        display: flex;
+        flex-direction: row;
+        .shared-icon {
+          margin-top: 40px;
+          margin-bottom: 5px;
+          color: #cdcdcd;
+          margin-left: 100px;
+        }
+      }
+    }
+   
+  }
+}

@@ -1,0 +1,21 @@
+.funnel-main {
+  flex: 2;
+
+  .funnel-wrapper {
+    padding: 20px;
+
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    .funnel-chart {
+      width: 100%;
+      height: 300px;
+
+      .funnel {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

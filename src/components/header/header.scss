@@ -1,0 +1,41 @@
+.header-main {
+  .header-wrapper {
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: rgb(156, 156, 156);
+    font-weight: bold;
+    font-size: 18px;
+    align-items: center;
+    .icon {
+        font-size: 40px;
+        margin:0 10px;
+      }
+    .header-title {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .icon {
+        font-size: 40px;
+      }
+      p {
+        margin-left: 10px;
+      }
+    }
+  .share{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+  .time {
+    font-weight: normal;
+    font-size: 12px;
+    span {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
